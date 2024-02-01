@@ -1,0 +1,6 @@
+# ./configure --prefix=/usr/local/openresty/luajit --with-lua=/usr/local/openresty/luajit/ --lua-suffix=jit --with-lua-include=/usr/local/openresty/luajit/include/luajit-2.1
+
+
+export PATH=/usr/local/openresty/luajit/bin:$PATH
+sudo luarocks install redis-lua
+
