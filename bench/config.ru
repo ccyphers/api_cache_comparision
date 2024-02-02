@@ -1,3 +1,3 @@
-require './ruby'
+require './sinatra_app'
 
 run App
